@@ -1,0 +1,6 @@
+<resources>
+	<prefab name="test3_prefab" path="Entity_Prefabs/test3"></prefab>
+</resources>
+<entity name="test1_prefab" tag="prefab1" prefab="test3_prefab">
+	<mesh_filter name="MeshTest1"></mesh_filter>
+</entity>

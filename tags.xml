@@ -1,0 +1,10 @@
+<tag name="">
+	<tag name="enemy">
+		<tag name="boss"></tag>
+		<tag name="archer"></tag>
+		<tag name="warrior"></tag>
+		<tag name="berserker"></tag>
+	</tag>
+	<tag name="weapon"></tag>
+	<tag name="player"></tag>
+</tag>

@@ -1,0 +1,25 @@
+<scene name="scene1">
+	<resources>
+		<!-- Textures, Meshes, Materials, Prefabs, etc... -->
+		<prefab name="player_prefab" path="Entity_Prefabs/player"></prefab>
+		<mesh name="MeshShield" path="Resources/Meshes/MeshShield"></mesh>
+		<prefab name="test1_prefab" path="Entity_Prefabs/test1"></prefab>
+		<prefab name="test2_prefab" path="Entity_Prefabs/test2"></prefab>
+	</resources>
+	<entities>
+		<entity name="boss guy" tag="boss">
+			<entity name="sword" tag="weapon">
+			</entity>
+			<entity name="shield" tag="weapon">
+				<mesh_filter name="MeshShield"></mesh_filter>
+			</entity>
+		</entity>
+		<entity name="John Smith" prefab="player_prefab">
+		</entity>
+		<entity name="PREFAB_TEST1" prefab="test1_prefab">
+			<entity name="PREFAB_TEST2" prefab="test2_prefab">
+				<mesh_filter name="MeshShield"></mesh_filter>
+			</entity>
+		</entity>
+	</entities>
+</scene>
