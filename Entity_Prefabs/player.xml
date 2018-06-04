@@ -1,6 +1,6 @@
 <resources>
-	<mesh name="player_prefab" path="Resources/Meshes/MeshPlayer.dae"></mesh>
-	<prefab name="player_prefab2" path="Entity_Prefabs/sub/player"></prefab>
+	<mesh alias="player_prefab" path="Resources/Meshes/MeshPlayer.dae"></mesh>
+	<prefab alias="player_prefab2" path="Entity_Prefabs/sub/player"></prefab>
 </resources>
 <entity name="player_prefab" tag="player">
 	<mesh_filter name="MeshPlayer"></mesh_filter>

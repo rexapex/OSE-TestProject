@@ -1,10 +1,10 @@
 <scene name="scene1">
 	<resources>
 		<!-- Textures, Meshes, Materials, Prefabs, etc... -->
-		<prefab name="player_prefab" path="Entity_Prefabs/player"></prefab>
-		<mesh name="MeshShield" path="Resources/Meshes/MeshShield"></mesh>
-		<prefab name="test1_prefab" path="Entity_Prefabs/test1"></prefab>
-		<prefab name="test2_prefab" path="Entity_Prefabs/test2"></prefab>
+		<prefab alias="player_prefab" path="Entity_Prefabs/player"></prefab>
+		<mesh alias="MeshShield" path="Resources/Meshes/MeshShield"></mesh>
+		<prefab alias="test1_prefab" path="Entity_Prefabs/test1"></prefab>
+		<prefab alias="test2_prefab" path="Entity_Prefabs/test2"></prefab>
 	</resources>
 	<entities>
 		<entity name="boss guy" tag="boss">
