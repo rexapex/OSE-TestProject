@@ -1,5 +1,0 @@
-<resources>
-	<prefab alias="test4_prefab" path="Entity_Prefabs/test4"></prefab>
-</resources>
-<entity name="test2_prefab" tag="prefab2" prefab="test4_prefab">
-</entity>

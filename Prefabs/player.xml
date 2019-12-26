@@ -1,0 +1,7 @@
+<resources>
+	<texture alias="1" path="player-char-2.png"></texture>
+</resources>
+<entity name="player" tag="p">
+	<sprite_renderer name="CLAD_Renderer" texture="1"></sprite_renderer>
+	<custom component="PlayerMovement"></custom>
+</entity>

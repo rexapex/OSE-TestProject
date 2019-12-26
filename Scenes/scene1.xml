@@ -1,25 +1,28 @@
 <scene name="scene1">
 	<resources>
-		<!-- Textures, Meshes, Materials, Prefabs, etc... -->
-		<prefab alias="player_prefab" path="Entity_Prefabs/player"></prefab>
-		<mesh alias="MeshShield" path="Resources/Meshes/MeshShield"></mesh>
-		<prefab alias="test1_prefab" path="Entity_Prefabs/test1"></prefab>
-		<prefab alias="test2_prefab" path="Entity_Prefabs/test2"></prefab>
+		<texture alias="0" path="main-tileset-64.png"></texture>
+		<texture alias="1" path="wooden-house-tileset.png"></texture>
+		<prefab alias="player" path="player"></prefab>
+		<tilemap alias="map_tiles" path="chunk1.txt"></tilemap>
+		<tilemap alias="house_tiles" path="house-walls-1.txt"></tilemap>
 	</resources>
 	<entities>
-		<entity name="boss guy" tag="boss">
-			<entity name="sword" tag="weapon">
-			</entity>
-			<entity name="shield" tag="weapon">
-				<mesh_filter name="MeshShield"></mesh_filter>
-			</entity>
+		<entity name="map">
+			<transform></transform>
+			<tile_renderer name="map_renderer" texture="0" tilemap="map_tiles" num_cols="8" num_rows="8" num_tiles="64"></tile_renderer>
 		</entity>
-		<entity name="John Smith" prefab="player_prefab">
+		<entity name="house">
+			<transform x="800" y="300"></transform>
+			<tile_renderer name="house_renderer" texture="1" tilemap="house_tiles" num_cols="4" num_rows="8" num_tiles="16" spacing_x="0.25" spacing_y="0.25"></tile_renderer>
 		</entity>
-		<entity name="PREFAB_TEST1" prefab="test1_prefab">
-			<entity name="PREFAB_TEST2" prefab="test2_prefab">
-				<mesh_filter name="MeshShield"></mesh_filter>
-			</entity>
+		<entity name="CLAD2" prefab="player">
+			<transform x="200" y="500" sx="1" sy="1"></transform>
+		</entity>
+		<entity name="CLAD2" prefab="player">
+			<transform x="200" y="300" sx="1" sy="1"></transform>
+		</entity>
+		<entity name="CLAD2" prefab="player">
+			<transform x="200" y="700" sx="1" sy="1"></transform>
 		</entity>
 	</entities>
 </scene>

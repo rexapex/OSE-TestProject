@@ -1,0 +1,13 @@
+﻿LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+OSE V2_x64_Debug.lib(pch.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+OSE V2_x64_Debug.lib(pch.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+OSE V2_x64_Debug.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'OSE V2_x64_Debug.lib(image_DXT.obj)' or at 'D:\James\Documents\Origami_Sheep_Engine\Projects\OSE-TestProject\Builds\SOIL.pdb'; linking object as if no debug info
+OSE V2_x64_Debug.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'OSE V2_x64_Debug.lib(image_helper.obj)' or at 'D:\James\Documents\Origami_Sheep_Engine\Projects\OSE-TestProject\Builds\SOIL.pdb'; linking object as if no debug info
+OSE V2_x64_Debug.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'OSE V2_x64_Debug.lib(SOIL.obj)' or at 'D:\James\Documents\Origami_Sheep_Engine\Projects\OSE-TestProject\Builds\SOIL.pdb'; linking object as if no debug info
+OSE V2_x64_Debug.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'OSE V2_x64_Debug.lib(stb_image_aug.obj)' or at 'D:\James\Documents\Origami_Sheep_Engine\Projects\OSE-TestProject\Builds\SOIL.pdb'; linking object as if no debug info
+OSE V2_x64_Debug.lib(pch.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+OSE V2_x64_Debug.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'OSE V2_x64_Debug.lib(glew.obj)' or at 'D:\James\Documents\Origami_Sheep_Engine\Projects\OSE-TestProject\Builds\vc120.pdb'; linking object as if no debug info
+OSE V2_x64_Debug.lib(pch.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+OSE V2_x64_Debug.lib(pch.obj) : warning LNK4255: library contain multiple objects of the same name; linking object as if no debug info
+  Test Project.vcxproj -> D:\James\Documents\Origami_Sheep_Engine\Projects\OSE-TestProject\Scripts\Test Project\../../Builds/Test Project_x64_Debug.exe

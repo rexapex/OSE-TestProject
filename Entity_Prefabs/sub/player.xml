@@ -1,6 +1,0 @@
-<resources>
-	<prefab alias="test3_prefab" path="Entity_Prefabs/test3"></prefab>
-</resources>
-<entity name="player2_prefab" tag="prefab_player2" prefab="test3_prefab">
-	<mesh_filter name="MeshTest2"></mesh_filter>
-</entity>
